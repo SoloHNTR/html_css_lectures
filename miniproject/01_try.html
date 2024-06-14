@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KodeLedger</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      header {
+        background: url("./01KodeLedger/images/home/showcase.jpg") no-repeat
+          center center/cover;
+        height: 100vh;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      nav {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 50px;
+        background: rgba(0, 0, 0, 0.5);
+      }
+
+      nav .logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      nav .nav-links {
+        list-style: none;
+        display: flex;
+      }
+
+      nav .nav-links li {
+        margin: 0 15px;
+      }
+
+      nav .nav-links li :hover {
+        color: green;
+      }
+
+      nav .nav-links a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+      }
+
+      .hero h1 {
+        font-size: 50px;
+        margin: 0;
+      }
+      .hero p {
+        margin-bottom: 40px;
+      }
+
+      .hero .btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: green;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      .hero .btn:hover {
+        background-color: rgb(0, 102, 0);
+      }
+
+      .about {
+        display: flex;
+        align-items: center;
+        background-color: green;
+        color: #fff;
+      }
+
+      .about .btn {
+        box-sizing: border-box;
+        border-color: #fff;
+        background-color: green;
+        text-decoration: none;
+        padding: 20px;
+      }
+
+      .solutions {
+        padding: 30px;
+        text
+      }
+
+      .features,
+      .blog-posts,
+      .team,
+      .contact {
+        text-align: center;
+      }
+
+      footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      footer .social-links {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+      }
+
+      footer .social-links a {
+        margin: 0 10px;
+      }
+
+      footer .social-links img {
+        width: 24px;
+        height: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="logo">KodeLedger</div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Cases</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <h1>The Sky Is The Limit</h1>
+        <p>We provide world class financial assistance</p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </header>
+
+    <section class="features">
+      <div class="feature-item">...</div>
+      <div class="feature-item">...</div>
+      <div class="feature-item">...</div>
+    </section>
+
+    <section class="about">
+      <div><img src="./01KodeLedger/images/home/people.jpg" alt="" /></div>
+      <div class="solutions">
+        <h4>What are you looking for</h4>
+        <h2>We provide bespoke solutions</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+          eligendi corporis ratione harum, sapiente at quia iure blanditiis quas
+          unde?
+        </p>
+        <button href="#" class="btn">Learn More</button>
+      </div>
+    </section>
+
+    <section class="blog-posts">
+      <div class="blog-post">...</div>
+      <div class="blog-post">...</div>
+      <div class="blog-post">...</div>
+    </section>
+
+    <section class="team">
+      <h2>Our Professional Team</h2>
+      <div class="team-member">...</div>
+      <div class="team-member">...</div>
+      <div class="team-member">...</div>
+    </section>
+
+    <section class="contact">
+      <h2>Request Callback</h2>
+      <form>
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <input type="text" placeholder="Phone" />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>Copyright © 2023 KodeLedger</p>
+      <div class="social-links">
+        <a href="#"><img src="facebook-icon.png" alt="Facebook" /></a>
+        <a href="#"><img src="twitter-icon.png" alt="Twitter" /></a>
+        <a href="#"><img src="linkedin-icon.png" alt="LinkedIn" /></a>
+      </div>
+    </footer>
+  </body>
+</html>
